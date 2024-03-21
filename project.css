@@ -1,0 +1,49 @@
+nav{
+background-color: #00ff22;
+border: 1px solid white;
+width: 100%;
+float: left;
+margin: 0;
+padding: 0;
+position: fixed;
+
+}
+
+header{
+border: 1px solid white;  
+background-color: #1f5711;
+width: 100%;
+float: left;
+margin: 0;
+padding: 0;
+position: fixed; top: 0;
+}
+
+footer{
+border: 1px solid white;
+position: fixed; bottom: 0;
+background-color: #00ff22;
+text-align: center;
+width: 100%;
+float: left;
+    
+    
+}
+body{
+background-color: #0F0F0F;
+margin: 0;
+padding: 0;
+}
+head{
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: lightgrey;
+}
+h3{
+    color: lightgrey;
+}
+h1{
+    color: lightgrey;
+}
