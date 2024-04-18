@@ -21,11 +21,16 @@ position: fixed; top: 0;
 
 footer{
 border: 1px solid white;
-position: fixed; bottom: 0;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
 background-color: #00ff22;
 text-align: center;
-width: 100%;
-float: left;
+height: 120;
+
+
+
     
     
 }
@@ -33,6 +38,11 @@ body{
 background-color: #0F0F0F;
 margin: 0;
 padding: 0;
+background-image: url('images/background2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: 1000px;
 }
 head{
     margin: 0;
@@ -42,8 +52,15 @@ p{
     color: lightgrey;
 }
 h3{
-    color: lightgrey;
+    color: white;
 }
 h1{
     color: lightgrey;
 }
+h4{
+    color: lightgrey;
+}
+.border { 
+    border: whitesmoke 2px solid;
+    width: max-content;
+  }
